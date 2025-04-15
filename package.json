@@ -1,0 +1,26 @@
+{
+  "name": "amazon-purchase-agent",
+  "version": "1.0.0",
+  "description": "Sample code for integrating GOAT SDK plugins for Amazon purchases with any agent framework",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "ts-node src/test.ts"
+  },
+  "dependencies": {
+    "@goat-sdk/adapter-vercel-ai": "0.2.10",
+    "@goat-sdk/core": "0.4.9",
+    "@goat-sdk/plugin-crossmint-headless-checkout": "0.0.13",
+    "@goat-sdk/plugin-erc20": "0.2.14",
+    "@goat-sdk/wallet-evm": "0.2.11",
+    "@goat-sdk/wallet-viem": "0.2.12",
+    "dotenv": "^16.4.5",
+    "viem": "2.23.4",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
