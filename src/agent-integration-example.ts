@@ -38,7 +38,7 @@ export class YourAgentFramework {
     // For this example, we're using the information from the requirements
     const userInfo = {
       name: "Joyce Lee",
-      shippingAddress: "Joyce Lee, 1 SE 3rd Ave, Miami, FL 33131, US",
+      shippingAddress: "Joyce Lee, 123 Main St, Anytown, CA 12345, US",
       email: "crossmintdemo@gmail.com"
     };
     

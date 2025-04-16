@@ -12,7 +12,7 @@ dotenv.config();
 const userInfo = {
   name: "Joyce Lee",
   email: "crossmintdemo@gmail.com",
-  shippingAddress: "Joyce Lee, 1 SE 3rd Ave, Miami, FL 33131, US"
+  shippingAddress: "Joyce Lee, 123 Main St, Anytown, CA 12345, US"
 };
 
 // Amazon product URL

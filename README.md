@@ -1,6 +1,6 @@
 # Amazon Purchase Agent
 
-This project provides a standalone Amazon purchase agent that integrates with GOAT SDK plugins to enable Amazon purchases using USDC on Base blockchain without requiring an existing agent framework.
+This project provides a standalone Amazon purchase agent that integrates with GOAT SDK plugins to enable Amazon purchases using USDC on Base blockchain.
 
 ## Features
 
@@ -73,7 +73,7 @@ To integrate this code into your agent framework:
    const amazonUrl = "https://www.amazon.com/dp/B08SVZ775L"; // From user input
    const userInfo = {
      name: "Joyce Lee",
-     shippingAddress: "Joyce Lee, 1 SE 3rd Ave, Miami, FL 33131, US",
+     shippingAddress: "Joyce Lee, 123 Main St, Anytown, CA 12345, US",
      email: "crossmintdemo@gmail.com"
    };
 
